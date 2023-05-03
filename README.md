@@ -39,5 +39,12 @@ $ ./src/reduce.py --input_paths outputs_1/geoTwitter*.country --output_path=redu
 
 **Visualize Data**
 My goal was to neatly graph the usage of different covid-related hashtags so I coded the visualize.py file that takes a hashtag as an input and either the language or country files to show the spread of usage. 
-You can see my exhibiting #coronavirus usage across countries:
+Here are four graphs my made exhibiting trends extrapolated from my data:
+
 ![Coronavirus Hashtag Usage during 2020 Across Countries](coronavirus_countries.png)
+
+![Coronavirus Hashtag Usage during 2020 Across Languages](coronavirus_languages.png)
+
+![Korean Coronavirus Hashtag Usage during 2020 Across Countries](코로나바이러스_countries.png)
+
+![Korean Coronavirus Hashtag Usage during 2020 Across Languages](코로나바이러스_languages.png)
