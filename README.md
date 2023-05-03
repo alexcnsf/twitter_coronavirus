@@ -20,7 +20,7 @@ In total, there are about 1.1 billion tweets in this dataset.
 
 ## Process
 
-**Map Reduce**
+## Map Reduce
 I used the [MapReduce](https://en.wikipedia.org/wiki/MapReduce) procedure to analyze these tweets.
 This is a famous procedure that allows for large scale parallel processing and is widely used in industry.
 It is a 3 step procedure summarized by the following image:
@@ -37,7 +37,7 @@ $ ./src/reduce.py --input_paths outputs_1/geoTwitter*.lang --output_path=reduced
 $ ./src/reduce.py --input_paths outputs_1/geoTwitter*.country --output_path=reduced.country_1
 ```
 
-**Visualize Data**
+## Visualize Data
 My goal was to neatly graph the usage of different covid-related hashtags so I coded the visualize.py file that takes a hashtag as an input and either the language or country files to show the spread of usage. 
 Here are four graphs my made exhibiting trends extrapolated from my data:
 
@@ -45,6 +45,12 @@ Here are four graphs my made exhibiting trends extrapolated from my data:
 
 ![Coronavirus Hashtag Usage during 2020 Across Languages](coronavirus_languages.png)
 
+## Korean coronavirus hashtag usage across 2020 by country
 ![Korean Coronavirus Hashtag Usage during 2020 Across Countries](코로나바이러스_countries.png)
 
-![Korean Coronavirus Hashtag Usage during 2020 Across Languages](코로나바이러스_languages.png)
+## Korean coronavirus hashtag usage across 2020 by language
+![Korean Coronavirus Hashtag Usage during 2020 Across Languages](코로나바이러스_language.png)
+
+## Alternate Reduce
+I additionally created an alternate reduce python script that graphs the changing usage of different hashtags overtime as seen by the graph below
+![Hashtag usage over 2020](contagion_virus_sick_covid.png) 
