@@ -53,4 +53,5 @@ Here are four graphs my made exhibiting trends extrapolated from my data:
 
 ## Alternate Reduce
 I additionally created an alternate reduce python script that graphs the changing usage of different hashtags overtime as seen by the graph below
+
 ![Hashtag usage over 2020](contagion_virus_sick_covid.png) 
